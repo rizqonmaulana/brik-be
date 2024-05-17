@@ -8,11 +8,10 @@
     "start": "node ./src/index.js",
     "build-old": "tsc",
     "serve": "node dist/src/index.js",
-    "vercel-build": "echo hello",
     "db:create": "sequelize db:create",
     "db:migrate": "sequelize db:migrate",
-    "copy-assets": "npx copyfiles --all -e \"./.git/**/*\" -e \"./node_modules/**/*\" -e \"./dist/**/*\" -e \"./**/*.{ts,tsx}\" \"./**/*\" ./dist",
-    "build": "npx rimraf ./dist && npm run compile && npm run copy-assets",
+    "copy-assets": "npx copyfiles --all -e \"./.git/*/\" -e \"./node_modules/*/\" -e \"./dist/*/\" -e \"./*/.{ts,tsx}\" \"./*/\" ./dist",
+    "vercel-build": "npx rimraf ./dist && npm run compile && npm run copy-assets",
     "compile": "npx tsc"
   },
   "author": "",
