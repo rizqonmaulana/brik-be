@@ -8,6 +8,7 @@
     "start": "ts-node src/index.ts",
     "build": "tsc",
     "serve": "node dist/index.js",
+    "vercel-build": "echo hello",
     "db:create": "sequelize db:create",
     "db:migrate": "sequelize db:migrate"
   },

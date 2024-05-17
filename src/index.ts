@@ -25,9 +25,7 @@ dotenv.config();
 
 const port = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-    res.send('<h1> Hello, World! </h1>');
-});
+app.get("/", (req, res) => res.send("Express on Vercel"));
 
 app.use('/users', userRouter);
 app.use('/products', productRouter);
@@ -58,3 +56,5 @@ const startServer = async () => {
 };
 
 startServer();
+
+export default app
