@@ -1,5 +1,4 @@
-import Cart from "../model/cart";
-import Product from "../model/product";
+import { Cart, Product }from "../model/index";
     
   const CartService = {    
     async getCart(option?: any){

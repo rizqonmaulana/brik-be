@@ -1,6 +1,5 @@
 import { DataTypes, Model } from 'sequelize';
-import sequelize from '../config/database';
-import Order from './order'
+import sequelize from './config';
 
 export enum UserRole {
   ADMIN = 'ADMIN',

@@ -1,7 +1,6 @@
 import Sequelize, { Op } from "sequelize";
 
-import Product from "../model/product";
-import ProductOrder from "../model/productOrder";
+import { Product, ProductOrder } from "../model";
 
 import { ProductInterface, CreateProduct, UpdateProduct, StockProductCheck, StockCheckResponse } from "../interface/productInterface";
     

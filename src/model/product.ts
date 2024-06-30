@@ -1,5 +1,5 @@
 import { DataTypes, Model } from 'sequelize';
-import sequelize from '../config/database';
+import sequelize from './config';
 import Category from './category'; // Import the Category model
 
 interface ProductAttributes {

@@ -1,7 +1,4 @@
-import Order from "../model/order";
-import OrderItem from "../model/orderItem";
-import User from "../model/user";
-import ProductOrder from "../model/productOrder";
+import { Order, OrderItem, User, ProductOrder } from "../model";
 
 import { CreateOrder } from "../interface/orderInterface";
     

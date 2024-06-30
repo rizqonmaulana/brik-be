@@ -1,5 +1,5 @@
 import { DataTypes, Model } from 'sequelize';
-import sequelize from '../config/database';
+import sequelize from './config';
 import Order from './order'; // Import the Order model
 import ProductOrder from './productOrder'; // Import the Product model
 

@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
 
-import User from "../model/user";
+import { User } from "../model";
 
 import { CreateUser } from '../interface/userInterface';
     
